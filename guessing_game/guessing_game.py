@@ -56,7 +56,7 @@ def game():
 
     while True:
         a, b = get_range()
-        gessing(a, b)
+        guessing(a, b)
 
         while True:
             answer = input('Хотите сыграть ещё раз? Да/Нет\n').lower()
