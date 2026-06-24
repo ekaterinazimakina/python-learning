@@ -23,7 +23,7 @@ def get_range(): # Get and validate the range
         else:
             print('Please enter positive integers.')
 
-def guessing(a, b):
+def generate_secret_number(a, b): #A number is chosen
     num = random.randint(a, b)
     return num
 
@@ -57,7 +57,7 @@ def play_game():
     while True:
 
         a, b = get_range()
-        num = guessing(a, b)
+        num = generate_secret_number(a, b)
         attempts = get_difficulty(a, b)
         
         print('A number has been chosen. Try to guess it.')
