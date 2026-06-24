@@ -207,6 +207,7 @@ def play(word):
         guess = input().upper()
         if not guess.isalpha():
             print('Пожалуйста, введите букву')
+            continue
         elif len(guess) == 1:
             if guess in guessed_letters:
                 print('Эта буква уже была. Введите другую букву')
@@ -232,7 +233,7 @@ def play(word):
                 guessed = True
             if guess != word:
                 tries -= 1
-                print(print(display_hangman(tries)), f'Такой буквы нет. Осталось попыток: {tries}')
+                print(display_hangman(tries), f'Неверное слово. Осталось попыток: {tries}')
 
         if '_' not in word_completion:
             guessed = True
