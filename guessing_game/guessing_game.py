@@ -23,11 +23,11 @@ def get_range(): # Get and validate the range
         else:
             print('Please enter positive integers.')
 
-def generate_secret_number(a, b): #A number is chosen
+def generate_secret_number(a, b): #Generates a random number within the given range
     num = random.randint(a, b)
     return num
 
-def get_difficulty(a, b):
+def get_difficulty(a, b): #Choosing the difficulty level and calculating the number of attempts
     while True:
         difficulty = input('Choose a difficulty level:\n1 - Easy\n2 - Medium\n3 - Hard\n')
         minimum_attempts = int((math.ceil(math.log2(b - a + 1))))
@@ -50,7 +50,7 @@ def get_difficulty(a, b):
         else:
             print('Please answer 1, 2, or 3.')
 
-def play_game():
+def play_game(): #Guessing game logic
 
     print('Welcome to the number guessing game.')
 
