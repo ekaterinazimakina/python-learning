@@ -1,5 +1,6 @@
-A simple command-line number guessing game written in Python.
+🔢 A simple command-line number guessing game written in Python.
 The player tries to guess a randomly generated number within a chosen range and limited number of attempts based on difficulty level.
+
 Created as a Python learning project to practice:
 - loops
 - functions
@@ -7,7 +8,7 @@ Created as a Python learning project to practice:
 - control flow
 - basic game logic
 
-Features
+✨ Features
 User-defined number range
 Three difficulty levels:
 - Easy (more attempts)
@@ -21,7 +22,7 @@ Feedback after each guess:
 Tracks number of attempts used
 Option to replay the game
 
-How the game works
+🎮 How the game works
 1. The player enters a numeric range (start and end).
 2. The program randomly selects a number within that range.
 3. The player selects a difficulty level:
