@@ -22,14 +22,14 @@ Tracks number of attempts used
 Option to replay the game
 
 How the game works
-The player enters a numeric range (start and end).
-The program randomly selects a number within that range.
-The player selects a difficulty level:
+1. The player enters a numeric range (start and end).
+2. The program randomly selects a number within that range.
+3. The player selects a difficulty level:
 Easy → more attempts
 Medium → moderate attempts
 Hard → minimal attempts (based on logarithmic formula)
-The player tries to guess the number.
-After each guess, the game gives hints.
-The game ends when:
-The number is guessed correctly, OR Attempts run out
-The player can choose to play again.
+4. The player tries to guess the number.
+5. After each guess, the game gives hints.
+6. The game ends when:
+- The number is guessed correctly, OR Attempts run out
+- The player can choose to play again.
