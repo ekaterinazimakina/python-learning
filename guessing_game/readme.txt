@@ -8,18 +8,18 @@ Created as a Python learning project to practice:
 - basic game logic
 
 Features
-1. User-defined number range
-2. Three difficulty levels:
+User-defined number range
+Three difficulty levels:
 - Easy (more attempts)
 - Medium (balanced)
 - Hard (optimal number of attempts)
-3. Input validation (only positive integers allowed)
-4. Feedback after each guess:
+Input validation (only positive integers allowed)
+Feedback after each guess:
 - “too high”
 - “too low”
 - “out of range”
-5. Tracks number of attempts used
-6. Option to replay the game
+Tracks number of attempts used
+Option to replay the game
 
 How the game works
 The player enters a numeric range (start and end).
