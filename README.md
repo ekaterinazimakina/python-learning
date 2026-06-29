@@ -12,7 +12,7 @@ Each project helped me practice core programming concepts such as conditions, lo
 
 - Word Guessing Game (Hangman): A classic word guessing game where the player tries to guess the hidden word letter by letter.
 
-Password Generator: A simple tool that generates random passwords based on predefined rules.
+- Password Generator: A simple tool that generates random passwords based on predefined rules.
 
 🧠 What I learned
 - variables and data types
