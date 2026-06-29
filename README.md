@@ -6,21 +6,13 @@ Each project helped me practice core programming concepts such as conditions, lo
 
 🎮 Projects included
 
-🔢 Number Guessing Game
+- Number Guessing Game: A simple game where the user tries to guess a randomly generated number within a limited number of attempts.
 
-A simple game where the user tries to guess a randomly generated number within a limited number of attempts.
+- Magic 8 Ball: A fun program that gives random “fortune-style” answers to user questions.
 
-🔮 Magic 8 Ball
+- Word Guessing Game (Hangman): A classic word guessing game where the player tries to guess the hidden word letter by letter.
 
-A fun program that gives random “fortune-style” answers to user questions.
-
-🎯 Word Guessing Game (Hangman)
-
-A classic word guessing game where the player tries to guess the hidden word letter by letter.
-
-🔐 Password Generator
-
-A simple tool that generates random passwords based on predefined rules.
+Password Generator: A simple tool that generates random passwords based on predefined rules.
 
 🧠 What I learned
 - variables and data types
