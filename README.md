@@ -5,6 +5,7 @@ This repository contains my beginner Python projects created during a Python for
 Each project helped me practice core programming concepts such as conditions, loops, functions, and working with strings and user input.
 
 🎮 Projects included
+
 🔢 Number Guessing Game
 
 A simple game where the user tries to guess a randomly generated number within a limited number of attempts.
