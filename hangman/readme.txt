@@ -25,7 +25,9 @@ This project helped me practice:
 4. The hangman figure is gradually drawn as mistakes increase
 5. The game ends when the word is guessed or attempts run out
 
-📚 In future versions, I plan to enhance the game with:
+📚 Planned improvements
+
+In future versions, I plan to enhance the game with:
 
 - Language selection (e.g. English / Russian words)
 - Difficulty levels based on word length, number of unique letters
